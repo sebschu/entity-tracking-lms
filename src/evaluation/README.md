@@ -1,6 +1,6 @@
 ### Evaluation code
 
-`evaluation_metrics.py` computes the accuracy for each example. 
+`compute_metrics.py` computes the accuracy for each example. 
 
 The model output to be evaluated should be in the same TSV format as the example model outputs:
 
@@ -12,7 +12,7 @@ The model output to be evaluated should be in the same TSV format as the example
 Basic statistics such as the overall accuracy and the accuracy as a function of the number of operations acting upon a box can be computed with the command line tool:
 
 ```
-python evaluation_metrics.py --model_output <PATH-TO-MODEL-OUTPUT.tsv> --gold_data <PATH-TO-GOLD-DATA.jsonl>
+python compute_metrics.py --model_output <PATH-TO-MODEL-OUTPUT.tsv> --gold_data <PATH-TO-GOLD-DATA.jsonl>
 ```
 
 To compute metrics on specific subsets (e.g., all empty boxes), modify the main function in `evaluation_metrics.py` or call `compute_metrics()` from another script.
