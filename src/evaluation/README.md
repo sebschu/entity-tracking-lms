@@ -15,5 +15,5 @@ Basic statistics such as the overall accuracy and the accuracy as a function of 
 python compute_metrics.py --model_output <PATH-TO-MODEL-OUTPUT.tsv> --gold_data <PATH-TO-GOLD-DATA.jsonl>
 ```
 
-To compute metrics on specific subsets (e.g., all empty boxes), modify the main function in `evaluation_metrics.py` or call `compute_metrics()` from another script.
+To compute metrics on specific subsets (e.g., all empty boxes), modify the main function in `compute_metrics.py` or call `compute_metrics()` from another script.
 
