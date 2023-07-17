@@ -1,7 +1,7 @@
 # Entity Tracking in Language Models
 _Najoung Kim and Sebastian Schuster_
 
-This is the repository accompanying the ACL 2023 paper (_Entity Tracking in Language Models_)[https://arxiv.org/abs/2305.02363]. 
+This is the repository accompanying the ACL 2023 paper [_Entity Tracking in Language Models_](https://aclanthology.org/2023.acl-long.213/). 
 
 
 ## Dataset
