@@ -27,3 +27,16 @@ The directory `code` contains code for computing evaluation metrics and for gene
 
 If you use the dataset or the dataset generation script, please cite the following paper:
 
+```
+@inproceedings{kim-schuster-2023-entity,
+    title = "Entity Tracking in Language Models",
+    author = "Kim, Najoung  and
+      Schuster, Sebastian",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)",
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.213",
+    pages = "3835--3855"
+}
+```
+
